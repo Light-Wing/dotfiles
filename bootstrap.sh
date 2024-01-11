@@ -7,8 +7,10 @@ git pull origin main;
 
 function doIt() {
 	rsync --exclude ".git/" \
+		--exclude ".bin/" \
 		--exclude ".DS_Store" \
 		--exclude ".osx" \
+		--exclude "brew.sh" \
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
