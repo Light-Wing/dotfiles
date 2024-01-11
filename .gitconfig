@@ -129,7 +129,8 @@
 [commit]
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
+	gpgsign = false
+	# this makes things complicated (at least for the current me) - it forces to use gpg signing, and setting it up is taking longer then i wanted to spend on this
 
 [diff]
 
