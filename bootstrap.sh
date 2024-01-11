@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Light - reviewed
 
 cd "$(dirname "${BASH_SOURCE}")";
 

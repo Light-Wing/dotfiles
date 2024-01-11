@@ -1,3 +1,5 @@
+" Light - reviewed
+
 " Use the Solarized Dark theme
 set background=dark
 colorscheme solarized
@@ -68,7 +70,9 @@ set nostartofline
 " Show the cursor position
 set ruler
 " Don’t show the intro message when starting Vim
-set shortmess=atI
+" set shortmess=atI
+" #NOT_SURE ^
+
 " Show the current mode
 set showmode
 " Show the filename in the window titlebar

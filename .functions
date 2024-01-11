@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Light - reviewed
 
 # Create a new directory and enter it
 function mkd() {
@@ -106,6 +107,7 @@ function gz() {
 function digga() {
 	dig +nocmd "$1" any +multiline +noall +answer;
 }
+# GOTTA_TRY
 
 # Show all the names (CNs and SANs) listed in the SSL certificate
 # for a given domain
